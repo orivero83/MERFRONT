@@ -13,7 +13,7 @@ document.getElementById('checkout-btn').addEventListener('click', async () => {
         };
         console.log('Datos de la orden:', orderData);
 
-        const response = await fetch('http://localhost:3000/preference', {
+        const response = await fetch('https://meback.onrender.com/preference', {
 
             method: 'POST',
             headers: {
